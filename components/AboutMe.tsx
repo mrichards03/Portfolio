@@ -16,7 +16,7 @@ const CompAboutMe: React.FC = () => {
                   My journey in tech started at a young age and has been fueled by my curiosity and love for learning new things. 
                   My aim: to inspire, challenge, and contribute meaningfully to the world around me.
                   <br/> <br/>
-                  {"I'm most interested in robotics, backend development, and exploring new challenges."}
+                  I'm most interested in robotics, backend development, and exploring new challenges.
               </CardBody>
             </Card>
             <ContactIcons/>    
