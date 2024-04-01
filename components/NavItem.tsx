@@ -1,4 +1,5 @@
 'use client'
+import { motion } from 'framer-motion';
 import * as React from 'react';
 
 interface NavItemProps {
@@ -23,9 +24,16 @@ const NavItem: React.FC<NavItemProps> = ({ children, sectionId }) => {
   };
 
   return (
-    <li className="cursor-pointer" onClick={handleClick}>
+    <motion.li className="cursor-pointer" onClick={handleClick} 
+    whileHover={{ scale: 1.1 }}
+    transition={{
+      type: "spring",
+      damping: 3,
+      stiffness: 50,
+      restDelta: 0.001
+    }}>
       {children}
-    </li>
+    </motion.li>
   );
 };
 
