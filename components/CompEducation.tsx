@@ -58,7 +58,7 @@ const Awards: React.FC = () => {
           Awards
         </h2>
         {awards.map((award, index) => (
-          <Item key={index} {...award} />
+          <Item index={index} key={award.title} title={award.title || ''} subtitle={award.subtitle} description={award.description} empty={award.empty} />
         ))}
       </section>
     );
