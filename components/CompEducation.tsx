@@ -127,17 +127,17 @@ const Courses: React.FC<CoursesProps> = ({
         </h2>
         <div className="flex gap-5 justify-between mt-3 w-full leading-[150%] max-md:flex-wrap max-md:max-w-full">
           {courses.slice(0, 3).map((course, index) => (
-            <Item key={index} title={course.title} subtitle={course.subtitle} index={index} empty={course.empty}/>
+            <Item key={index} title={course.title || ''} subtitle={course.subtitle} index={index} empty={course.empty}/>
           ))}
         </div>
         <div className="flex gap-5 justify-between mt-3 w-full leading-[150%] max-md:flex-wrap max-md:max-w-full">
           {courses.slice(3, 6).map((course, index) => (
-            <Item key={index} title={course.title} subtitle={course.subtitle} index={index} empty={course.empty}/>
+            <Item key={index} title={course.title || ''} subtitle={course.subtitle} index={index} empty={course.empty}/>
           ))}
         </div>
         <div className="flex gap-5 justify-between mt-3 w-full leading-[150%] max-md:flex-wrap max-md:max-w-full">
           {courses.slice(6, 9).map((course, index) => (
-            <Item key={index} title={course.title} subtitle={course.subtitle} index={index} empty={course.empty}/>
+            <Item key={index} title={course.title || ''} subtitle={course.subtitle} index={index} empty={course.empty}/>
           ))}
         </div>
       </section>
