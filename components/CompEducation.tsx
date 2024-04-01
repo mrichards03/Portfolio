@@ -3,42 +3,20 @@
 import React from 'react';
 import {Tabs, Tab} from "@nextui-org/tabs";
 import { Card, CardBody, CardHeader } from '@nextui-org/card';
+import Item from './Item';
 
 interface ItemProps {
-    title: string;
-    subtitle: string;
+    title?: string;
+    subtitle?: string;
     description?: string;
+    empty?: boolean;
 }
 
 interface CoursesProps {
     title: String;
     courses: ItemProps[];
 }
-  
-const Item: React.FC<ItemProps> = ({ title, subtitle, description }) => {
-    if (!title && !subtitle && !description) {
-        return <div className="px-4 w-full"></div>;
-    }
 
-    return (
-      <Card className='mt-4 p-2 w-full'>
-        <CardHeader className='justify-between'>
-          <div className="justify-center text-xl font-semibold leading-7 text-white max-md:max-w-full">
-            {title}
-          </div>
-          <div className="justify-center self-start mt-2 text-sm leading-5 text-gray-500">
-            {subtitle}
-          </div>
-        </CardHeader>
-        <CardBody>
-          <div
-            className="mt-5 text-base leading-6 text-gray-400 max-md:max-w-full">
-            {description}
-          </div>
-        </CardBody>
-      </Card>
-    );
-};
   
 const Awards: React.FC = () => {
     const awards: ItemProps[] = [
@@ -87,7 +65,7 @@ const Awards: React.FC = () => {
 };
 
   
-const csCourses = [
+const csCourses : ItemProps[] = [
     { title: "Computer Programming I", subtitle: "94%" },
     { title: "Computer Programming II", subtitle: "91%" },
     { title: "Machine Architecture", subtitle: "97%" },
@@ -95,10 +73,10 @@ const csCourses = [
     { title: "Introduction to Databases", subtitle: "100%" },
     { title: "Software Engineering", subtitle: "In Progress" },
     { title: "Human Computer Interaction", subtitle: "In Progress"},
-    { title: "", subtitle: ""},
-    { title: "", subtitle: ""},
+    { empty: true},
+    { empty: true},
 ];
-const MCourses = [
+const MCourses : ItemProps[] = [
     {
       title: "Differential Calculus with Applications to Physical Sciences and Engineering",
       subtitle: "97%",
@@ -149,17 +127,17 @@ const Courses: React.FC<CoursesProps> = ({
         </h2>
         <div className="flex gap-5 justify-between mt-3 w-full leading-[150%] max-md:flex-wrap max-md:max-w-full">
           {courses.slice(0, 3).map((course, index) => (
-            <Item key={index} title={course.title} subtitle={course.subtitle} description=''/>
+            <Item key={index} title={course.title} subtitle={course.subtitle} index={index} empty={course.empty}/>
           ))}
         </div>
         <div className="flex gap-5 justify-between mt-3 w-full leading-[150%] max-md:flex-wrap max-md:max-w-full">
           {courses.slice(3, 6).map((course, index) => (
-            <Item key={index} title={course.title} subtitle={course.subtitle} description=''/>
+            <Item key={index} title={course.title} subtitle={course.subtitle} index={index} empty={course.empty}/>
           ))}
         </div>
         <div className="flex gap-5 justify-between mt-3 w-full leading-[150%] max-md:flex-wrap max-md:max-w-full">
           {courses.slice(6, 9).map((course, index) => (
-            <Item key={index} title={course.title} subtitle={course.subtitle} description=''/>
+            <Item key={index} title={course.title} subtitle={course.subtitle} index={index} empty={course.empty}/>
           ))}
         </div>
       </section>

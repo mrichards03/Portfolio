@@ -19,9 +19,7 @@ const CompAboutMe: React.FC = () => {
           </div>
         </section>
         <aside className="flex flex-col ml-5 w-[27%] max-md:ml-0 max-md:w-full">
-          <div className="grow justify-center items-center px-16 pt-24 pb-20 text-3xl font-bold leading-9 text-white whitespace-nowrap border border-black border-solid max-md:px-5 max-md:mt-10">
-            Photo
-          </div>
+          <img src="/profile.jpg" alt="MacKenzie Richards" className="rounded-3xl w-3/4"/>
         </aside>
       </div>
     </div>

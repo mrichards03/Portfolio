@@ -6,10 +6,11 @@ import CompExtracurriculars from '@/components/CompExtracurriculars';
 import ContactMe from '@/components/ContactMe';
 import CompHeader from '@/components/Header';
 import CompProjects from '@/components/Projects';
-import { motion, useMotionTemplate, useMotionValue } from "framer-motion";
+import { motion, useMotionTemplate, useMotionValue, useScroll } from "framer-motion";
 import { MouseEvent } from "react";
 
 export default function Home() {
+  const { scrollYProgress } = useScroll();
   let mouseX = useMotionValue(0);
   let mouseY = useMotionValue(0);
 
@@ -41,8 +42,12 @@ export default function Home() {
         }}
       />
     <main className='grid'>
-        <CompHeader />
-      <div className="w-1/2 justify-self-center">
+        <CompHeader />        
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
+      <div className="w-3/4 justify-self-center">
         <CompAboutMe/>
         <CompExperiences/>
         <CompExtracurriculars/>
