@@ -3,9 +3,8 @@ import ExperienceBase from "./ExperienceBase";
 
 const Extracurriculars = [
   {
-    title: "Lead Software Developer",
-    company: "HEAT Robotics",
-    date: "Feb 2024 – PRESENT",
+    title: "Lead Software Developer - HEAT Robotics",
+    subtitle: "Feb 2024 – PRESENT",
     description: `    
     <ul class="list-disc ml-4">
       <li>Lead Software Developer for HEAT Robotics, a team of 25, crafting an ember detection rover (EMBR) aimed at identifying and alerting firefighters to potentially dangerous underground hotspots. This innovative 2-month project is part of our entry in the Mass Robotics Form and Function Competition.</li>
@@ -26,9 +25,8 @@ const Extracurriculars = [
     ],
   },
   {
-    title: "Squadron Commander",
-    company: "Royal Canadian Air Cadets",
-    date: "Sept 2016 – Dec 2022",
+    title: "Squadron Commander - Royal Canadian Air Cadets",
+    subtitle: "Sept 2016 – Dec 2022",
     description: 
     `
     <ul class="list-disc ml-4">

@@ -7,23 +7,23 @@ interface NavItemProps {
 }
 
 const NavItem: React.FC<NavItemProps> = ({ children, sectionId }) => {
-  // Use useEffect to attach the event listener
-  React.useEffect(() => {
-    const element = document.getElementById(sectionId);
-    if (!element) return;
+  const handleClick = (e: React.MouseEvent<HTMLLIElement, MouseEvent>) => {
+    e.preventDefault();
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const headerHeight = document.querySelector('header')?.offsetHeight || 0;
 
-    const handleClick = () => {
-      element.scrollIntoView({ behavior: 'smooth' });
-    };
+      const offsetPosition = section.offsetTop - headerHeight;
 
-    element.addEventListener('click', handleClick);
-
-    // Cleanup
-    return () => element.removeEventListener('click', handleClick);
-  }, [sectionId]);
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth"
+      });
+    }
+  };
 
   return (
-    <li className="justify-center py-1.5 whitespace-nowrap cursor-pointer">
+    <li className="cursor-pointer" onClick={handleClick}>
       {children}
     </li>
   );

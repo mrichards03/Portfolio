@@ -1,6 +1,7 @@
 import * as React from "react";
 import Item from './Item';
 import type { ItemProps } from './Item';
+import { motion } from "framer-motion";
 
 interface ExperienceProps {
   header: string;
@@ -12,7 +13,7 @@ const ExperienceBase: React.FC<ExperienceProps> = ({
   experiences
 }) => {
   return (
-    <section className="flex flex-col px-6 mt-20 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
+    <motion.section className="flex flex-col px-6 mt-20 w-full max-md:px-5 max-md:mt-10 max-md:max-w-full">
       <h2 className="justify-center py-1 text-3xl font-bold leading-9 text-white whitespace-nowrap max-md:max-w-full">
         {header}
       </h2>
@@ -21,7 +22,7 @@ const ExperienceBase: React.FC<ExperienceProps> = ({
           <Item key={experience.title} {...experience} />
         ))}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

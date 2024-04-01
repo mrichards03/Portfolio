@@ -3,9 +3,8 @@ import ExperienceBase from "./ExperienceBase";
 
 const Experiences = [
   {
-    title: "Undergraduate Teaching Assistant",
-    company: "University of British Columbia",
-    date: "Sept 2023 – PRESENT",
+    title: "Undergraduate Teaching Assistant - University of British Columbia",
+    subtitle: "Sept 2023 – PRESENT",
     description: `
     <ul class="list-disc ml-4">
       <li>Conduct Differential Calculus labs, fostering an interactive learning environment that helps 120 students better understand the topics in the course, with 87% of students affirming that the labs significantly enhanced their comprehension of the content.</li>
@@ -15,9 +14,8 @@ const Experiences = [
     tags: ["Teaching"],
   },
   {
-    title: "Software Developer",
-    company: "Raptor Integration",
-    date: "Apr 2021 – Aug 2023",
+    title: "Software Developer - Raptor Integration",
+    subtitle: "Apr 2021 – Aug 2023",
     description: 
     `<ul class="list-disc ml-4">
       <li>Used C#, HTML, CSS, JavaScript, Blazor, .NET, and Entity Framework for front-end development and database integration.</li>
@@ -41,9 +39,8 @@ const Experiences = [
     ],
   },
   {
-    title: "Technology Workshop Instructor",
-    company: "Salmon Arm Innovation Center",
-    date: "Jun 2021 - Aug 2021",
+    title: "Technology Workshop Instructor - Salmon Arm Innovation Center",
+    subtitle: "Jun 2021 - Aug 2021",
     description: `
     <ul class="list-disc ml-4">
       <li>Designed and delivered engaging technology workshops tailored for seniors, covering a range of topics including Zoom, mobile device utilization, and online shopping.</li>

@@ -12,9 +12,9 @@ const CompHeader: React.FC = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center px-3.5 pt-11 pb-4 text-base bg-gray-900">
+    <header className="sticky top-0 z-50 bg-background flex flex-col items-center px-3.5 pt-11 pb-4 text-base">
       <header>
-        <h1 className="justify-center text-4xl font-bold leading-10 text-center text-white">
+        <h1 className="justify-center text-4xl font-bold leading-10 text-center">
           MacKenzie Richards
         </h1>
         <p className="justify-center mt-4 max-w-full leading-6 text-center text-gray-400 w-100">
@@ -28,7 +28,7 @@ const CompHeader: React.FC = () => {
           ))}
         </ul>
       </nav>
-    </div>
+    </header>
   );
 };
 

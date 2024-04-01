@@ -1,8 +1,8 @@
 'use client'
 
 import React from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css'
+import {Tabs, Tab} from "@nextui-org/tabs";
+import { Card, CardBody, CardHeader } from '@nextui-org/card';
 
 interface ItemProps {
     title: string;
@@ -21,15 +21,22 @@ const Item: React.FC<ItemProps> = ({ title, subtitle, description }) => {
     }
 
     return (
-        <div className="flex flex-col px-4 py-3.5 mt-3 bg-gray-600 rounded-lg shadow-sm leading-[150%] max-md:max-w-full w-full">
-            <div className="flex gap-5 justify-between pr-5 w-full max-md:flex-wrap max-md:max-w-full">
-                <div className="text-white max-md:max-w-full">{title}</div>
-                {subtitle && (
-                    <div className="shrink w-auto text-gray-400 basis-auto grow-0">{subtitle}</div>
-                )}
-            </div>
-            {description && <div className="mt-4 text-gray-400 max-md:max-w-full">{description}</div>}
-        </div>
+      <Card className='mt-4 p-2 w-full'>
+        <CardHeader className='justify-between'>
+          <div className="justify-center text-xl font-semibold leading-7 text-white max-md:max-w-full">
+            {title}
+          </div>
+          <div className="justify-center self-start mt-2 text-sm leading-5 text-gray-500">
+            {subtitle}
+          </div>
+        </CardHeader>
+        <CardBody>
+          <div
+            className="mt-5 text-base leading-6 text-gray-400 max-md:max-w-full">
+            {description}
+          </div>
+        </CardBody>
+      </Card>
     );
 };
   
@@ -165,26 +172,21 @@ const CompEducation: React.FC = () => {
             <h2 className="justify-center py-1 text-3xl font-bold leading-9 text-white whitespace-nowrap max-md:max-w-full">
                 Education
             </h2>
-            <div className="flex flex-col justify-center mt-2 max-md:max-w-full">
-                <Tabs>
-                    <TabList>
-                        <Tab>Awards</Tab>
-                        <Tab>Computer Science Courses</Tab>
-                        <Tab>Math Courses</Tab>
-                    </TabList>
-
-                    <TabPanel>
-                        <Awards />
-                    </TabPanel>
-                    <TabPanel>
-                        <Courses title={"Computer Science Courses"} courses={csCourses}/>
-                    </TabPanel>
-                    <TabPanel>
-                    <Courses title={"Math Courses"} courses={MCourses}/>
-                    </TabPanel>
+                <div className="flex w-full flex-col">
+                <Tabs aria-label='Options'>
+                        <Tab key="awards" title="Awards">
+                              <Awards />
+                        </Tab>
+                        <Tab key="csCourses" title="Computer Science Courses">
+                            <Courses title={"Computer Science Courses"} courses={csCourses}/>
+                        </Tab>
+                        <Tab key="mathCourses" title="Math Courses">
+                            <Courses title={"Math Courses"} courses={MCourses}/>
+                        </Tab>
                 </Tabs>
-            </div>
+            </div>            
         </section>
+              
     );
 };
 
