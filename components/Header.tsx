@@ -12,7 +12,7 @@ const CompHeader: React.FC = () => {
   ];
 
   return (
-    <header className="sticky top-0 z-50 bg-background flex flex-col items-center px-3.5 pt-11 pb-4 text-base">
+    <header className="sticky top-0 z-50 bg-background flex flex-col items-center px-3.5 pt-11 pb-4 text-base opacity-90">
       <header>
         <h1 className="justify-center text-4xl font-bold leading-10 text-center">
           MacKenzie Richards

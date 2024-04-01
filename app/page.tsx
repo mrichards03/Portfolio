@@ -25,11 +25,11 @@ export default function Home() {
   }
     return (
       <div
-      className="group relative bg-background z-50"
+      className="group relative bg-background"
       onMouseMove={handleMouseMove}
     >
       <motion.div
-        className="pointer-events-none absolute -inset-px rounded-xl opacity-0 transition duration-300 group-hover:opacity-100"
+        className="pointer-events-none absolute -inset-px rounded-xl opacity-0 transition duration-300 group-hover:opacity-100 z-50"
         style={{
           background: useMotionTemplate`
             radial-gradient(
@@ -40,9 +40,9 @@ export default function Home() {
           `,
         }}
       />
-    <main className=''>
-      <div className="">
+    <main className='grid'>
         <CompHeader />
+      <div className="w-1/2 justify-self-center">
         <CompAboutMe/>
         <CompExperiences/>
         <CompExtracurriculars/>
