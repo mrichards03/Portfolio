@@ -12,14 +12,18 @@ const CompAboutMe: React.FC = () => {
 
             <Card className="mt-4 p-2">
               <CardBody>
-                  I am an enthusiastic Software Developer and undergraduate student double majoring in Computer Science and Pure Mathematics. My journey in tech started at a young age and has been fueled by my curiosity and love for learning new things. My aim: to inspire, challenge, and contribute meaningfully to the world around me.
+                  I am an enthusiastic Software Developer and undergraduate student double majoring in Computer Science and Pure Mathematics. 
+                  My journey in tech started at a young age and has been fueled by my curiosity and love for learning new things. 
+                  My aim: to inspire, challenge, and contribute meaningfully to the world around me.
+                  <br/> <br/>
+                  I'm most interested in robotics, backend development, and exploring new challenges.
               </CardBody>
             </Card>
             <ContactIcons/>    
           </div>
         </section>
-        <aside className="flex flex-col ml-5 w-[27%] max-md:ml-0 max-md:w-full">
-          <img src="/profile.jpg" alt="MacKenzie Richards" className="rounded-3xl w-3/4"/>
+        <aside className="flex flex-col ml-5 w-[27%] max-md:ml-0 max-md:w-full justify-center">
+          <img src="/profile.jpg" alt="MacKenzie Richards" className="rounded-3xl"/>
         </aside>
       </div>
     </div>

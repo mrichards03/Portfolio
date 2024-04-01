@@ -8,7 +8,7 @@ const ContactMe: React.FC = () => (
       Contact Me
     </h2>
     <p className="justify-center items-center px-16 py-1 mt-6 text-base leading-6 text-center text-gray-400 max-md:px-5 max-md:max-w-full">
-      Feel free to reach out to me through my social profiles or send me an email.
+      Feel free to reach out to me through my social profiles or send me an email (richardsmackenzie3@gmail.com).
     </p>
     <ContactIcons/>
   </section>

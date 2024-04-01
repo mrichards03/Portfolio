@@ -18,10 +18,10 @@ const Experiences = [
     subtitle: "Apr 2021 – Aug 2023",
     descriptionList:
     [
-      "Used C#, HTML, CSS, JavaScript, Blazor, .NET, and Entity Framework for front-end development and database integration.",
+      "Developed front-end interfaces and integrated databases using C#, HTML, CSS, JavaScript, Blazor, .NET, and Entity Framework.",
       "Developed and improved databases and database structures using SQL.",
       "Collaborated in optimizing an algorithm for efficient log-sectioning, significantly improving its speed to prevent log-skipping and enhance operational efficiency.",
-      "Participated in and led feature design meetings and feature reviews.",
+      "Led and participated in feature design meetings and feature reviews.",
       "Worked with a team to develop a new product, personally designing and implementing more than half of the user views myself.",
       "Modified existing software by correcting errors and upgrading interfaces for improved performance.",
       "Upgraded old software from asp.net to Blazor and Entity Framework",
