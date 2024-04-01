@@ -19,34 +19,34 @@ interface CoursesProps {
 
   
 const Awards: React.FC = () => {
-    const awards: ItemProps[] = [
+    const awards: ItemProps[] = [      
       {
-        title: "Dean's List",
-        subtitle: "Awarded Freshmen & Sophomore Year",
+        title: "Cmolik Undergraduate Scholarship",
+        subtitle: "2021-2026",
         description:
-          "Awarded to students a sessional average of at least 85% while earning 24 or more credits",
+          "One of the 20 recipients in 2021 to receive the $45,000 Cmolik scholarship. The Scholarship is geared towards students who have faced adversity but have responded with positivity and tenacity, achieving academic and social goals.",
       },
       {
         title: "Mastercard Scholarship for Women in Computer Science",
-        subtitle: "Awarded Sophomore & Junior Year",
+        subtitle: "2021-2026",
         description:
           "One of four students to receive Mastercard's Scholarship for Women in Computer Science, a renewing scholarship approximately covering the cost of tuition.",
       },
       {
         title: "Deputy Vice-Chancellor Scholarship for Continuing Students",
-        subtitle: "Awarded Sophomore & Junior Year",
+        subtitle: "2021-2024",
         description:
           "A $500 scholarship recognize the value of continuing students and their academic achievement.",
       },
       {
-        title: "Cmolik Undergraduate Scholarship",
-        subtitle: "Awarded Senior Year of High School",
+        title: "Dean's List",
+        subtitle: "2021-2024",
         description:
-          "One of the 20 recipients in 2021 to receive the $45,000 Cmolik scholarship. The Scholarship is geared towards students who have faced adversity but have responded with positivity and tenacity, achieving academic and social goals.",
+          "Awarded to students a sessional average of at least 85% while earning 24 or more credits",
       },
       {
         title: "Morris Bursary for Excellence in Mathematics",
-        subtitle: "Awarded Senior Year of High School",
+        subtitle: "2021",
         description:
           "A $1600 bursary awarded to one female student a year, graduating from Salmon Arm Secondary School, demonstrating academic excellence in mathematics and pursuing post-secondary studies in mathematics or a related field.",
       },
