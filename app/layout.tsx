@@ -20,6 +20,8 @@ export default function RootLayout({children}: { children: React.ReactNode }) {
       <body suppressHydrationWarning={true}>
         <Providers>         
           {children}
+          <Analytics/>
+          <SpeedInsights/>
         </Providers>
       </body>
     </html>
