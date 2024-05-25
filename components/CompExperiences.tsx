@@ -3,13 +3,19 @@ import ExperienceBase from "./ExperienceBase";
 
 const Experiences = [
   {
+    title: "Software Developer - 4AG Robotics",
+    subtitle: "May 2024 – PRESENT",
+    descriptionList:
+    [],
+    tags: ["C++"],
+  },
+  {
     title: "Undergraduate Teaching Assistant - University of British Columbia",
-    subtitle: "Sept 2023 – PRESENT",
+    subtitle: "Sept 2023 – Apr 2024",
     descriptionList:
     [
-      "Conduct Differential Calculus labs, fostering an interactive learning environment that helps 120 students better understand the topics in the course, with 87% of students affirming that the labs significantly enhanced their comprehension of the content.",
-      "Evaluate and grade assignments and exams, maintaining academic integrity and providing constructive feedback to support student learning and development.",
-      "Attained a 91% average student satisfaction rating across four calculus labs, with 92% of students recognizing the presentation of material as exceptionally clear and beneficial.",
+      "Calculus Labs (Semester 1): Conducted Differential Calculus labs, assisting 120 students, with 87% affirming that the labs enhanced their comprehension. Achieved a 91% student satisfaction rating, with 92% recognizing the presentation of material as clear and beneficial.",
+      "Statistics Labs (Semester 2): Taught Business Statistics labs, supporting 95 students, with 90% of students reporting that the labs improved their understanding of the material. 90% of students found the laboratory materials clear and well-presented.",
     ],
     tags: ["Teaching"],
   },

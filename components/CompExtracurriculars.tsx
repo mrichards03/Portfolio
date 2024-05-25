@@ -13,6 +13,7 @@ const Extracurriculars = [
       "Responsible for task delegation, ensuring efficient workflow and meeting project milestones within the software team.",
       "Oversee the design, development, and implementation of software solutions, coordinating closely with Management, Mechanical, Manufacturing, and Electrical teams to achieve integrated system functionality.",
       "Interview experts in Robotics and Firefighting fields to ensure EMBR is built to the highest possible standard",
+      "Awarded Audience Choice Award at the MassRobotics Form & Function 2024 Competition, outperforming teams from MIT, Stanford, Cornell, and others.",
     ],
     tags: [
       "ROS2",

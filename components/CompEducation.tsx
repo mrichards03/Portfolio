@@ -66,56 +66,54 @@ const Awards: React.FC = () => {
 
   
 const csCourses : ItemProps[] = [
-    { title: "Computer Programming I", subtitle: "94%" },
-    { title: "Computer Programming II", subtitle: "91%" },
-    { title: "Machine Architecture", subtitle: "97%" },
-    { title: "Data Structures", subtitle: "93%" },
-    { title: "Introduction to Databases", subtitle: "100%" },
-    { title: "Software Engineering", subtitle: "In Progress" },
-    { title: "Human Computer Interaction", subtitle: "In Progress"},
-    { empty: true},
-    { empty: true},
+  { title: "Software Engineering", subtitle: "95%" },
+  { title: "Human Computer Interaction", subtitle: "87%"},
+  { title: "Introduction to Databases", subtitle: "100%" },
+  { title: "Data Structures", subtitle: "93%" },
+  { title: "Machine Architecture", subtitle: "97%" },
+  { title: "Computer Programming II", subtitle: "91%" },
+  { title: "Computer Programming I", subtitle: "94%" },
+  { empty: true},
+  { empty: true}
 ];
-const MCourses : ItemProps[] = [
-    {
-      title: "Differential Calculus with Applications to Physical Sciences and Engineering",
-      subtitle: "97%",
-    },
-    {
-      title: "Integral Calculus with Applications to Physical Sciences and Engineering",
-      subtitle: "97%",
-    },
-    {
-      title: "Matrix Algebra",
-      subtitle: "90%",
-    },
-    {
-      title: "Calculus III",
-      subtitle: "78%",
-    },
-    {
-      title: "Mathematical Proof",
-      subtitle: "88%",
-    },
-    {
-      title: "Introduction to Differential Equations",
-      subtitle: "87%",
-    },
-    {
-      title: "Abstract Algebra I",
-      subtitle: "86%",
-    },
-    {
-      title: "Analysis I",
-      subtitle: "88%",
-    },
-    {
-      title: "Complex Variables and Applications",
-      subtitle: "In Progress",
-    },
+const MCourses: ItemProps[] = [
+  {
+    title: "Complex Variables and Applications",
+    subtitle: "92%",
+  },
+  {
+    title: "Analysis I",
+    subtitle: "88%",
+  },
+  {
+    title: "Abstract Algebra I",
+    subtitle: "86%",
+  },
+  {
+    title: "Introduction to Differential Equations",
+    subtitle: "87%",
+  },
+  {
+    title: "Mathematical Proof",
+    subtitle: "88%",
+  },
+  {
+    title: "Calculus III",
+    subtitle: "78%",
+  },
+  {
+    title: "Matrix Algebra",
+    subtitle: "90%",
+  },
+  {
+    title: "Integral Calculus with Applications to Physical Sciences and Engineering",
+    subtitle: "97%",
+  },
+  {
+    title: "Differential Calculus with Applications to Physical Sciences and Engineering",
+    subtitle: "97%",
+  },
 ];
-
-  
 const Courses: React.FC<CoursesProps> = ({
     title,
     courses
