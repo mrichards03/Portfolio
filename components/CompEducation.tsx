@@ -2,7 +2,6 @@
 
 import React from 'react';
 import {Tabs, Tab} from "@nextui-org/tabs";
-import { Card, CardBody, CardHeader } from '@nextui-org/card';
 import Item from './Item';
 
 interface ItemProps {
@@ -36,7 +35,7 @@ const Awards: React.FC = () => {
         title: "Deputy Vice-Chancellor Scholarship for Continuing Students",
         subtitle: "2021-2024",
         description:
-          "A $500 scholarship recognize the value of continuing students and their academic achievement.",
+          "A $1000 scholarship awarded to the top 10% of continuing domestic students.",
       },
       {
         title: "Dean's List",

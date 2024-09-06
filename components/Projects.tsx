@@ -14,6 +14,16 @@ const SocialIcon: React.FC<SocialIconProps> = ({ icon }) => (
 const CompProjects: React.FC = () => {
   const projects = [
     {
+      title: "Documentation Repository",
+      description:
+        [ 
+          "A GitHub repository containing documentation I have written for various projects",
+          "Contains a detailed document explaining my FPGA design process for the KR260. I created this document after realizing there was no clear, beginner-friendly explanation of how to use the inputs on the board and why FPGA design was needed.", 
+        ],
+      tags: ["Technical Documentation"],
+      icon: <a href="https://github.com/mrichards03/Documentation" target="_blank"><SocialIcon icon={<FaGithub size={32} />} /></a>,
+    },
+    {
       title: "Discord Clone",
       description:
         [ 

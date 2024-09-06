@@ -4,10 +4,15 @@ import ExperienceBase from "./ExperienceBase";
 const Experiences = [
   {
     title: "Software Developer - 4AG Robotics",
-    subtitle: "May 2024 – PRESENT",
+    subtitle: "May 2024 – Aug 2024",
     descriptionList:
-    [],
-    tags: ["C++"],
+    ["Developed and deployed C++ components in Docker containers for a mushroom-picking robot, utilizing OpenCV for image processing and Gazebo messaging for cross-component communication.",
+      "Developed an image depth analysis algorithm that ensured the even distribution of mushrooms in the product box by creating a grid of depths and interfacing with the PLC.",
+      "Collaborated with a colleague to test and enhance a tool tray analysis component using vector mathematics and OpenCV to determine tool slot occupancy.",
+      "Optimized component configuration by modifying the docker images to contain default configuration files and implementing JSON merging on startup, reducing host-side config files from 30 to 2, streamlining deployment processes.",
+      "Researched and presented Kafka messaging solutions, contributing to the decision to implement Kafka in future software systems."
+    ],
+    tags: ["C++", "Docker", "OpenCV", "Gazebo Messaging", "Kafka", "GitLab"],
   },
   {
     title: "Undergraduate Teaching Assistant - University of British Columbia",
