@@ -29,7 +29,7 @@ const CompProjects: React.FC = () => {
       description:
       [
         "Developed a web application to track and gamify attendee sign-ups for tradeshows as outlined by KelownaSoftware -- our client",
-        "Devolped with a team for 3 other students for the Capstone course.",
+        "Developed with a team for 3 other students for the Capstone course.",
         "Written with a .NET and Entity Framework backend and an Angular frontend.",
         "Personally responsible for over 40% of the project development with a focus on the backend.",
         "Note: This web app is hosted on a UBC Server for an unknown amount of time, so it may not be available indefinitely.",
