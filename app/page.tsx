@@ -1,5 +1,6 @@
 'use client'
 import CompAboutMe from "@/components/AboutMe";
+import CompAwards from '@/components/CompAwards';
 import CompEducation from '@/components/CompEducation';
 import CompExperiences from '@/components/CompExperiences';
 import CompExtracurriculars from '@/components/CompExtracurriculars';
@@ -52,6 +53,7 @@ export default function Home() {
         <CompExperiences/>
         <CompExtracurriculars/>
         <CompEducation/>
+        <CompAwards/>
         <CompProjects/>
         <ContactMe/>
         <footer className="flex justify-center items-center px-16 pt-11 pb-6 mt-16 w-full text-base leading-6 text-center text-gray-600 max-md:px-5 max-md:mt-10 max-md:max-w-full">

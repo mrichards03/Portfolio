@@ -7,6 +7,7 @@ const CompHeader: React.FC = () => {
     { name: "Experience", id: "experience" },
     { name: "Extracurriculars", id: "extracurriculars" },
     { name: "Education", id: "education" },
+    { name: "Awards", id: "awards" },
     { name: "Projects", id: "projects" },
     { name: "Contact Me", id: "contact" },
   ];
