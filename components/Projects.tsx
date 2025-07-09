@@ -1,5 +1,5 @@
 import * as React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import Item, { ItemProps } from "./Item";
 
 
@@ -13,6 +13,30 @@ const SocialIcon: React.FC<SocialIconProps> = ({ icon }) => (
 
 const CompProjects: React.FC = () => {
   const projects = [
+    {
+      title: "EmbedDB",
+      description:
+      [
+        "Adapted a custom embedded database, written in C, to become an active DBMS",
+        "Evaluated performance compared to InfluxDB resulting in EmbedDB performing 200x better",
+        "Wrote and presented an Honours Thesis: http://hdl.handle.net/2429/91060"
+      ],
+      tags: ["C, C++, Databases"],
+      icon: <a href="https://github.com/mrichards03/EmbedDB" target="_blank"><SocialIcon icon={<FaGithub size={32} />} /></a>,
+    },
+    {
+      title: "BoothBoost",
+      description:
+      [
+        "Developed a web application to track and gamify attendee sign-ups for tradeshows as outlined by KelownaSoftware -- our client",
+        "Devolped with a team for 3 other students for the Capstone course.",
+        "Written with a .NET and Entity Framework backend and an Angular frontend.",
+        "Personally responsible for over 40% of the project development with a focus on the backend.",
+        "Note: This web app is hosted on a UBC Server for an unknown amount of time, so it may not be available indefinitely.",
+      ],
+      tags: ["C#", "Entity Framework", "Angular", "HTML", "CSS", "TypeScript", "SQL"],
+      icon: <a href="https://cs499section2.ok.ubc.ca/charity/group10/app/" target="_blank"><SocialIcon icon={<FaExternalLinkAlt size={26} />} /></a>,
+    },
     {
       title: "Documentation Repository",
       description:

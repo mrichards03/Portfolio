@@ -38,10 +38,15 @@ const Awards: React.FC = () => {
           "A $1000 scholarship awarded to the top 10% of continuing domestic students.",
       },
       {
+        title: "Dean's Scholar",
+        subtitle: "2025",
+        description: "Awarded to students with a sessional average of at least 90% while earning 24 or more credits"
+      },
+      {
         title: "Dean's List",
         subtitle: "2021-2024",
         description:
-          "Awarded to students a sessional average of at least 85% while earning 24 or more credits",
+          "Awarded to students with a sessional average of at least 85% while earning 24 or more credits",
       },
       {
         title: "Morris Bursary for Excellence in Mathematics",
