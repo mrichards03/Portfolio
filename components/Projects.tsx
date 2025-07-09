@@ -19,7 +19,7 @@ const CompProjects: React.FC = () => {
       [
         "Adapted a custom embedded database, written in C, to become an active DBMS",
         "Evaluated performance compared to InfluxDB resulting in EmbedDB performing 200x better",
-        "Wrote and presented an Honours Thesis: http://hdl.handle.net/2429/91060"
+        <>Wrote and presented an <a href="http://hdl.handle.net/2429/91060" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">Honours Thesis</a></>,
       ],
       tags: ["C, C++, Databases"],
       icon: <a href="https://github.com/mrichards03/EmbedDB" target="_blank"><SocialIcon icon={<FaGithub size={32} />} /></a>,

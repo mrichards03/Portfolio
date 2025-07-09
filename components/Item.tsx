@@ -7,7 +7,7 @@ export interface ItemProps {
     title: string;
     subtitle?: any;
     description?: string;
-    descriptionList?: string[];
+    descriptionList?: React.ReactNode[];
     tags?: string[];
     empty?: boolean;
   }
@@ -56,8 +56,8 @@ const Item: React.FC<ItemProps> = ({
                   {description && description}
                   {descriptionList && (
                     <ul className='list-disc ml-4'>
-                      {descriptionList.map((item) => (
-                        <li key={item}>{item}</li>
+                      {descriptionList.map((item, idx) => (
+                        <li key={idx}>{item}</li>
                       ))}
                     </ul>
                   )}
