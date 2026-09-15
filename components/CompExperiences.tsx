@@ -4,7 +4,7 @@ import ExperienceBase from "./ExperienceBase";
 const Experiences = [
   {
     title: "Software Developer - 4AG Robotics",
-    subtitle: "May 2024 – Present",
+    subtitle: "May 2024 – Apr 2025",
     descriptionList:
     ["Developed and deployed C++ components in Docker containers for a mushroom-picking robot, utilizing OpenCV for image processing and Gazebo messaging for cross-component communication.",
       "Developed an image depth analysis algorithm that ensured the even distribution of mushrooms in the product box by creating a grid of depths and interfacing with the PLC.",

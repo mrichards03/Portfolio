@@ -12,11 +12,13 @@ const CompAboutMe: React.FC = () => {
 
             <Card className="mt-4 p-2">
               <CardBody>
-                  I am an enthusiastic Software Developer and undergraduate student double majoring in Computer Science and Pure Mathematics. 
-                  My journey in tech started at a young age and has been fueled by my curiosity and love for learning new things. 
-                  My aim: to inspire, challenge, and contribute meaningfully to the world around me.
-                  <br/> <br/>
-                  I am most interested in robotics, backend development, and exploring new challenges.
+                  I am a software engineer with an Honours double major in 
+                  Computer Science and Pure Mathematics from The University of British Columbia. My work sits at the intersection of 
+                  low-level software and physical hardware, specializing in robotics, embedded systems, 
+                  and firmware engineering. From building C++ computer vision software for commercial 
+                  harvesting robots to leading a 10-person team developing an award-winning wildfire rover 
+                  and co-authoring research on ultra-lightweight embedded databases, I thrive on steep 
+                  learning curves and building reliable solutions for complex, resource-constrained environments.
               </CardBody>
             </Card>
             <ContactIcons/>    

@@ -32,7 +32,7 @@ const Awards: React.FC = () => {
       },
       {
         title: "Dean's Scholar",
-        subtitle: "2025",
+        subtitle: "2025-2026",
         description: "Awarded to students with a sessional average of at least 90% while earning 24 or more credits"
       },
       {

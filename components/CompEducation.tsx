@@ -34,9 +34,9 @@ const CompEducation: React.FC = () => {
                         </div>
                     </CardHeader>
                     <CardBody>
-                        <p className="mb-0.5">Majors: <span className="font-medium">Computer Science and Pure Mathematics</span></p>
-                        <p className="mb-0.5">Expected Graduation: <span className="font-medium">2026</span></p>
-                        <p>GPA: <span className="font-medium">90% — 4.33/4.33</span></p>
+                        <p className="mb-0.5">Majors: <span className="font-medium">Honours Computer Science and Pure Mathematics</span></p>
+                        <p className="mb-0.5">Graduated: <span className="font-medium">Apr 2026</span></p>
+                        <p>GPA: <span className="font-medium">91% — 4.33/4.33</span></p>
                     </CardBody>
                     </Card>
             </motion.div>       
