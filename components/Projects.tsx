@@ -20,7 +20,7 @@ const CompProjects: React.FC = () => {
         "Extended EmbedDB, a lab-built embedded database written in C, into a full active DBMS by adding event-driven (ECA) rule processing for IoT devices with as little as 4KB of memory",
         "Benchmarked the system against InfluxDB, achieving up to 200x faster query performance on equivalent workloads",
         <>Wrote and presented an <a href="http://hdl.handle.net/2429/91060" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">Honours Thesis</a></>,
-        <>Co-authored peer-reviewed paper, <a href="https://www.scitepress.org/PublicationsDetail.aspx?ID=o97pM2k6QAk=&t=1" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">"Active Rules for Embedded Databases: Lightweight Event-Driven Query Processing for Resource-Constrained Devices,"</a> published at the 28th ICEIS</>
+        <>Co-authored peer-reviewed paper, <a href="https://www.scitepress.org/PublicationsDetail.aspx?ID=o97pM2k6QAk=&t=1" target="_blank" rel="noopener noreferrer" className="underline text-blue-400">&quot;Active Rules for Embedded Databases: Lightweight Event-Driven Query Processing for Resource-Constrained Devices,&quot;</a> published at the 28th ICEIS</>
       ],
       tags: ["C", "C++", "Databases"],
       icon: <a href="https://github.com/mrichards03/EmbedDB" target="_blank"><SocialIcon icon={<FaGithub size={32} />} /></a>,
