@@ -34,7 +34,7 @@ const CompProjects: React.FC = () => {
         "Extended the system with a DHT11 temperature/humidity sensor, exposing live readings through Google Home",
 
       ],
-      tags: ["C#", "Entity Framework", "Angular", "HTML", "CSS", "TypeScript", "SQL"],
+      tags: ["C++", "ESP32", "Arduino", "IoT", "Google Home", "Sensors"],
       icon: <a href="https://github.com/mrichards03/Automated-Toggle-Switch-Light" target="_blank"><SocialIcon icon={<FaGithub size={32} />} /></a>,
     },
     {
