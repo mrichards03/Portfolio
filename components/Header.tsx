@@ -19,7 +19,7 @@ const CompHeader: React.FC = () => {
           MacKenzie Richards
         </h1>
         <p className="justify-center max-w-full leading-6 text-center text-gray-400 w-100">
-          Software Developer, Computer Science & Pure Mathematics Student
+          Software Developer (C++)
         </p>
       </header>
       <nav>
